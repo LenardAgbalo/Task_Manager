@@ -47,3 +47,19 @@ render('about')
 # Intance Variable vs Variable
 @instance_varibale: controller to view
 variable: controllet only
+
+# Micration Methods
+- create_table
+- drop_table
+- rename_table
+- add_column
+- remove_column
+- rename_column
+
+# Generate Model
+rails generate model ModelName columns
+rails generate model Task
+    name: string descripiton:text
+    position:integer completed:boolean
+
+
