@@ -29,3 +29,17 @@ Things you may want to cover:
 1. Generate Controller
 rails generate controller ControllerName Actions
 rails generate controller Tasks index new edit
+
+# Match Route
+get "main/index"
+match "main/index", to: "main#index", via: :get
+
+match "task/:id", to: "tasks#show", via: :get
+
+# Root Route
+root "main#index"
+match "/", to: "main#index", via: :get
+
+# Render Template Syntax
+render('main/about')
+render('about')
