@@ -43,3 +43,7 @@ match "/", to: "main#index", via: :get
 # Render Template Syntax
 render('main/about')
 render('about')
+
+# Intance Variable vs Variable
+@instance_varibale: controller to view
+variable: controllet only

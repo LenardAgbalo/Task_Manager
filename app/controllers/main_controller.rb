@@ -1,10 +1,13 @@
 class MainController < ApplicationController
   def index
-  render('index') 
+  # render('index') 
   end
 
   def about
-  render('about') 
+    @created_by = "Lenard"
+    @id = params['id']
+    @page = params[:page]
+  # render('about') 
   end
 
   def hello
