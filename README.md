@@ -90,3 +90,5 @@ rails c -e development
 
 https://www.linkedin.com/learning/ruby-on-rails-7-essential-training/create-records-using-activerecord?autoSkip=true&resume=false
 Continue 4. Update records using ActiveRecord
+
+Testing Github Application if commit
