@@ -130,3 +130,8 @@ end
 # Resourceful URL Helpers
 {controller: 'tasks', action: 'show', id: 5}
 task_path(5)
+
+Rails Helper: form_for
+
+
+# Partials
