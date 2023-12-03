@@ -126,12 +126,30 @@ get: export
 end
 end
 
-
 # Resourceful URL Helpers
+
 {controller: 'tasks', action: 'show', id: 5}
 task_path(5)
 
 Rails Helper: form_for
 
+# Continue Learning
 
-# Partials
+Ruby on Rails: Controllers and Views
+Ruby on Rails: Models and Associations
+
+Topics
+
+- Cookies, sessions
+- Logging
+- Layouts
+- Images, CSS, Javascript
+- Helper methods
+- Named scopes
+- Validations, errors
+- Callbacks
+- Associations
+
+Resources
+api.rubyonrails
+guidesrubyonrails.rog
