@@ -92,3 +92,41 @@ https://www.linkedin.com/learning/ruby-on-rails-7-essential-training/create-reco
 Continue 4. Update records using ActiveRecord
 
 Testing Github Application if commit
+
+# REST HTTP Verbs
+
+Verb Objective Usage  
+GET Retrive items from resource Link Links
+POST Create new item in resource Forms
+PATCH Update existing item in resource Forms
+DELETE Delete existing item in resource Link, forms
+
+# Resourceful Routes
+
+resources :tasks
+resources :categories
+
+# Omit Resourceful Routes
+
+resources :users, exept: [show]
+resources :products, only: [:index, :show]
+
+# Add Resourceful Routes
+
+# config/routes.rb
+
+resources :task do
+
+member do
+get :delete
+end
+
+collection do
+get: export
+end
+end
+
+
+# Resourceful URL Helpers
+{controller: 'tasks', action: 'show', id: 5}
+task_path(5)
